@@ -1,6 +1,7 @@
 module.exports = {
   title: "深入理解CSS",
   description: '更完备、更直观、更精简',
+  base: '/css-deepen-understanding/',
   dest: 'dist',
   themeConfig: {
     nav: [
