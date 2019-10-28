@@ -1,6 +1,7 @@
 module.exports = {
   title: "深入理解CSS",
   description: '更完备、更直观、更精简',
+  dest: 'dist',
   themeConfig: {
     nav: [
       { text: '首页', link: '/index.md' }
