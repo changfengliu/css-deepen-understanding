@@ -8,7 +8,10 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "publish": "git subtree push --prefix dist origin gh-pages",
+    "pub": "git push -f git@github.com:changfengliu/css-deepen-understanding.git master:gh-pages",
+    "remove": "git push origin --delete gh-pages"
   },
   "author": "",
   "license": "ISC",
